@@ -93,10 +93,6 @@ form > fieldset {
   align-items: center;
 }
 
-.search-form__checkbox-list > .search-form__label:hover {
-  cursor: pointer;
-}
-
 .search-form__label:focus {
   outline: none;
 }
@@ -297,6 +293,7 @@ form > fieldset {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  flex-grow: 1;
 }
 
 .content__video-card-title {
@@ -337,10 +334,6 @@ form > fieldset {
   top: 0;
   right: 0;
   width: 100%;
-}
-
-.content__video-card-description-container {
-  flex-grow: 1;
 }
 
 /* Кастомный скроллбар */
