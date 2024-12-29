@@ -88,7 +88,7 @@ form > fieldset {
 
 .search-form__label {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   width: fit-content;
   align-items: center;
 }
@@ -160,7 +160,7 @@ form > fieldset {
 }
 
 .search-form__pseudo-checkbox::after {
-  content: '';
+  content: "";
   display: none;
   background-color: #fff;
   width: 15px;
@@ -260,7 +260,7 @@ form > fieldset {
 .content__card-link {
   display: block;
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
 
 .content__card-link:hover {
