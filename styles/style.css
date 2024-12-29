@@ -80,6 +80,7 @@ ol {
   font-weight: 400;
   font-size: 18px;
   color: #fff;
+  margin-bottom: 6px;
 }
 
 form > fieldset {
@@ -116,7 +117,6 @@ form > fieldset {
   border-top: 1px solid #fff;
   min-inline-size: 225px;
   appearance: none;
-  margin-top: 6px;
 }
 
 .search-form__textfield:focus {
@@ -152,7 +152,9 @@ form > fieldset {
   height: 19px;
   background-color: transparent;
   margin-right: 5px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-form__pseudo-checkbox::after {
@@ -164,7 +166,6 @@ form > fieldset {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  position: absolute;
   display: block;
   top: 1px;
   right: 1px;
@@ -247,6 +248,10 @@ form > fieldset {
   gap: 30px;
 }
 
+.content__list:first-child {
+  margin-top: 2px;
+}
+
 .content__list-item {
   display: block;
   padding-left: 3px;
@@ -327,13 +332,6 @@ form > fieldset {
   height: 34px;
   margin: 0 2px 2px;
   margin-top: 30px;
-}
-
-.preloader-template {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
 }
 
 /* Кастомный скроллбар */
